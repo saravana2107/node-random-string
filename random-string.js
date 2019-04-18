@@ -3,6 +3,10 @@ module.exports = (config = {}) => {
     config = { length: config }
   }
 
+  if (typeof config.chars !== 'string') {
+    config.chars = ''
+  }
+
   if (config.chars) {
     if (config.upperCase) {
       config.chars = config.chars.toUpperCase()
@@ -12,7 +16,8 @@ module.exports = (config = {}) => {
   }
 
   let chars = config.chars || ''
-  let length = config.length || 32
+  let length = parseInt(config.length || 0, 10)
+  length = length || 32
 
   if (!chars) {
     const numberCharset = '0123456789'
