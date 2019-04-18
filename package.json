@@ -1,5 +1,5 @@
 {
-  "name": "random-string",
+  "name": "node-random-string",
   "version": "1.0.0",
   "description": "To create random string",
   "main": "random-string.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saravana2107/random-string.git"
+    "url": "git+https://github.com/saravana2107/node-random-string.git"
   },
   "keywords": [
     "randomstring",
@@ -18,9 +18,9 @@
   "author": "Saravana",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/saravana2107/random-string/issues"
+    "url": "https://github.com/saravana2107/node-random-string/issues"
   },
-  "homepage": "https://github.com/saravana2107/random-string#readme",
+  "homepage": "https://github.com/saravana2107/node-random-string#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^5.16.0",

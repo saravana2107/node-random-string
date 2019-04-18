@@ -6,8 +6,8 @@ describe('Random String', function () {
     assert.strictEqual(randomString(12).length, 12)
   })
 
-  it('should return random string with default length 8', function () {
-    assert.strictEqual(randomString().length, 8)
+  it('should return random string with default length 32', function () {
+    assert.strictEqual(randomString().length, 32)
   })
 
   it('should return random string with given charset and uppercase', function () {
