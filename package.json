@@ -1,6 +1,6 @@
 {
   "name": "node-random-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "To create random string",
   "main": "random-string.js",
   "scripts": {
